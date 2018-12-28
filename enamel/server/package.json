@@ -1,0 +1,27 @@
+{
+  "name": "enamel_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "./node_modules/nodemon/bin/nodemon.js src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.3",
+    "dotenv": "^6.0.0",
+    "graphql": "^14.0.2",
+    "graphql-yoga": "1.16.9",
+    "jsonwebtoken": "^8.3.0",
+    "moment": "^2.22.2",
+    "mongod": "^2.0.0",
+    "mongoose": "^5.4.1",
+    "nodemailer": "^4.6.7",
+    "nodemon": "^1.17.5"
+  },
+  "nodemonConfig": {
+    "ext": "js,json,graphql"
+  }
+}
